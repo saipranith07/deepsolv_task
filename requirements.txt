@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+motor
+beautifulsoup4
+requests
+google-generativeai
+python-multipart
+pydantic
+python-dotenv
+selenium
+webdriver-manager
+lxml
