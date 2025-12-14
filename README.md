@@ -1,11 +1,11 @@
 # GenAI Developer Assignment - LinkedIn Insights Microservice
 
-## 📄 Project Overview
+## Project Overview
 This project is a Microservice designed to fetch, store, and analyze LinkedIn Company Page insights. It was built to meet the assignment requirements of creating a robust backend system with **AI integration** and **Database persistence**, optimized for a quick turnaround time.
 
 ---
 
-## 🚀 What I Did (My Approach)
+## What I Did (My Approach)
 
 To solve the problem of scraping dynamic LinkedIn data and providing AI summaries, I implemented the following architecture:
 
@@ -19,7 +19,7 @@ To solve the problem of scraping dynamic LinkedIn data and providing AI summarie
 
 ---
 
-## 🛠️ How I Executed It (Step-by-Step)
+## How I Executed It (Step-by-Step)
 
 ### Step 1: Database Setup (MongoDB Atlas)
 * Created a free tier cluster on MongoDB Atlas.
@@ -47,7 +47,7 @@ To solve the problem of scraping dynamic LinkedIn data and providing AI summarie
 
 ---
 
-## 📊 The Results
+## The Results
 
 ### 1. Simple User Interface (Swagger UI)
 Due to the strict timeline (24 hours), I prioritized backend robustness over a custom frontend. The application utilizes **FastAPI's automatic Swagger UI**, which provides an interactive dashboard to test APIs directly.
@@ -75,4 +75,5 @@ When querying for `google`, the system successfully scrapes and returns:
       "comments_count": "N/A"
     }
   ]
+
 }
